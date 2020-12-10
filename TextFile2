@@ -1,0 +1,3 @@
+Dim teenAgerStudents As IList(Of Student) = (From s In studentList _
+                                            Where s.Age > 12 And s.Age < 20 _
+                                            Select s).ToList()
